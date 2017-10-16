@@ -6,11 +6,13 @@
 
 #include <netinet/in.h>
 
+#define MAX 512
 
 int main() {
 
     //what the server has to say
-    char server_message[256] = "Hey. This is server speaking.";
+    char server_message[256] = "Hey. This is server speaking.";     //for udp connections
+    char buff[MAX] = "elo elo 3 2 0";                               //for tcp connections
 
     //create the server socket
     int server_socket;
@@ -42,10 +44,22 @@ int main() {
         exit(1);
     }
 
+/////////// UDP //////////////
     //now let's send the data
-    send(client_socket, server_message, sizeof(server_message), 0);
+    //send(client_socket, server_message, sizeof(server_message), 0);
+
+/////// END OF UDP //////////
+
+
+///////// TCP ////////////////
+
+    if (write(client_socket, buff, MAX) == -1) {
+        perror("Error writing to the client socket");
+        exit(1);
+    }
+
+////// END OF TCP ///////////
 
     close(server_socket);
-
     return 0;
 }

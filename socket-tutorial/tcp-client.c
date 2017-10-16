@@ -6,9 +6,11 @@
 
 #include <netinet/in.h>
 
+#define MAX 512
+
 
 int main() {
-
+    char buff[MAX];         //for tcp connections
     //create a socket
     int network_socket;
     network_socket = socket(AF_INET, SOCK_STREAM, 0);
@@ -28,12 +30,23 @@ int main() {
         exit(1);
     }
 
-    //receive data from the server_address
-    char server_response[256];
-    recv(network_socket, &server_response, sizeof(server_response), 0);
+///////////// UDP ///////////////
 
+    //receive data from the server_address
+    char server_response[256];      //for udp connections
+    //recv(network_socket, &server_response, sizeof(server_response), 0);
     //print out the server's response
     printf("The server responded with data: %s\n", server_response);
+
+///////////END OF UDP ///////////
+
+
+//////////// TCP ////////////////
+
+    read(network_socket, buff, MAX);
+    printf("Otrzymano: %s", buff);
+
+////////// END OF TCP ///////////
 
     close(network_socket);
 
