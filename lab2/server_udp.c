@@ -43,16 +43,20 @@ int main(int argc, char **argv) {
     serveraddr.sin_addr.s_addr = htonl(INADDR_ANY);
     serveraddr.sin_port = htons(atoi(PORT_NUMBER));
 
+
     if (bind(sockfd, (struct sockaddr *) &serveraddr,
     sizeof(serveraddr)) < 0) {
         perror("Error while binding socket");
         exit(1);
     }
 
+    //printf("Server started running on port %s...", PORT_NUMBER);
+
     //main loop: wait for a datagram, then echo it
     clientlen = sizeof(clientaddr);
 
     do {
+    bzero(buf, sizeof(buf));
     //receive data from the client
     n = recvfrom(sockfd, buf, BUFSIZE, 0,
         (struct sockaddr *) &clientaddr, &clientlen);
