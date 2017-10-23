@@ -1,0 +1,2 @@
+Wywołując dwa razy funkcję gethostbyname i zapisując jej wynik na dwóch różnych zmiennych można się zdziwić, bo może ona zwracać ten sam wskaźnik. Z tego co zauważyliśmy na labach, ktoś już musiał się wziąć za ten bug i np. u mnie na laptopie działa już lepiej, tj. są dwa rózne adresy. Niemniej jednak trzeba to wiedzieć, gdyż może to doprowadzić do różnych problemów.
+Jeśli dla getaddinfo nie podamy hintow, socktype i protocol będą puste. Bo nie może się domyślić np. czy chcemy TCP czy UDP.
