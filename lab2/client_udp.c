@@ -1,5 +1,5 @@
 //simple UDP client
-//use with two arguments: <host> <port>
+//use with two arguments: <host> <port> <msg>
 
 #include <stdio.h>
 #include <stdlib.h>
