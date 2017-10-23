@@ -10,9 +10,7 @@
 
 /*
     ARGUMENTS:
-
     argv[1] - port number
-
 */
 
 #define PORT_NUMBER 9002
@@ -20,6 +18,7 @@
 int main(int argc, char** argv) {
     //what the server has to say
     char buff[MAX] = "elo elo 3 2 0";
+    char client_message[MAX];
 
     //create the server socket
     int server_socket;
@@ -45,7 +44,7 @@ int main(int argc, char** argv) {
 
     //accept the connection
     int client_socket;
-    while (client_socket = accept(server_socket, NULL, NULL) != -1) {
+    while ((client_socket = accept(server_socket, NULL, NULL)) != -1) {
         if (client_socket == -1) {
             perror("Accept connection failed");
             exit(1);
@@ -55,6 +54,13 @@ int main(int argc, char** argv) {
             perror("Error writing to the client socket");
             exit(1);
         }
+
+        bzero(client_message, sizeof(client_message));
+        if (read(client_socket, messageFromClient, MAX) == -1) {
+            perror("Error while reading socket");
+            exit(1);
+        }
+        printf("Otrzymano: %s\n", client_message);
     }
 
     close(server_socket);
