@@ -41,7 +41,9 @@ int main(int argc, char** argv) {
     }
 
     read(network_socket, buff, MAX);
-    printf("Otrzymano: %s", buff);
+    write(network_socket, argv[1], MAX);
+
+    printf("Otrzymano: %s\n", buff);
 
     close(network_socket);
 
