@@ -30,23 +30,17 @@ int main() {
         exit(1);
     }
 
-///////////// UDP ///////////////
 
     //receive data from the server_address
-    char server_response[256];      //for udp connections
+    //char server_response[256];      //for udp connections
     //recv(network_socket, &server_response, sizeof(server_response), 0);
     //print out the server's response
-    printf("The server responded with data: %s\n", server_response);
+    //printf("The server responded with data: %s\n", server_response);
 
-///////////END OF UDP ///////////
-
-
-//////////// TCP ////////////////
 
     read(network_socket, buff, MAX);
     printf("Otrzymano: %s", buff);
 
-////////// END OF TCP ///////////
 
     close(network_socket);
 
