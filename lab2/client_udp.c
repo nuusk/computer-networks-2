@@ -56,7 +56,7 @@ int main(int argc, char **argv) {
     }
 
     //print the server's reply
-    n = recvfrom(sockfd, buf, strlen(buf), 0, &serveraddr, &serverlen);
+    n = recvfrom(sockfd, buf, 1024, 0, &serveraddr, &serverlen);
     if (n < 0) {
         perror("ERROR in recvfrom");
         exit(1);
