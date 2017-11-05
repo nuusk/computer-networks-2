@@ -49,7 +49,6 @@ int main() {
         perror("Error writing to the client socket");
         exit(1);
       }
-      close(client_socket);
     }
 
 ////// END OF TCP ///////////

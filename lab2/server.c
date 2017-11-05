@@ -56,7 +56,7 @@ int main(int argc, char** argv) {
         }
 
         bzero(client_message, sizeof(client_message));
-        if (read(client_socket, messageFromClient, MAX) == -1) {
+        if (read(client_socket, client_message, MAX) == -1) {
             perror("Error while reading socket");
             exit(1);
         }

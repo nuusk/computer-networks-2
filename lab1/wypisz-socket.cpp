@@ -12,7 +12,6 @@ using namespace std;
 //argv[1] is server addres
 //argv[2] is port number
 
-
 int main(int argc, char **argv) {
     sockaddr_in sock_addr;
     int lbajt;
