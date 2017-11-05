@@ -38,24 +38,18 @@ int main() {
 
     //accept the connection
     int client_socket;
-    client_socket = accept(server_socket, NULL, NULL);
-    if (client_socket == -1) {
-        perror("Accept connection failed");
-        exit(1);
-    }
-
-/////////// UDP //////////////
-    //now let's send the data
-    //send(client_socket, server_message, sizeof(server_message), 0);
-
-/////// END OF UDP //////////
-
-
-///////// TCP ////////////////
+    while(1) {
+      client_socket = accept(server_socket, NULL, NULL);
+      if (client_socket == -1) {
+          perror("Accept connection failed");
+          exit(1);
+      }
 
     if (write(client_socket, buff, MAX) == -1) {
         perror("Error writing to the client socket");
         exit(1);
+      }
+      close(client_socket);
     }
 
 ////// END OF TCP ///////////
