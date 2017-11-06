@@ -1,0 +1,3006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4938428BCA8D439AB4D23971 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 32D1BED1387448B1AABF800B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				167324D735304FE28E6C29A4 /* CMake Rules */,
+			);
+			dependencies = (
+				55D26856476D4344BA1F84AA /* PBXTargetDependency */,
+				C3D9AB32CEBF471FAD546300 /* PBXTargetDependency */,
+				FE34287E21C2425F86C916A2 /* PBXTargetDependency */,
+				33E74B7A5870459AB99C2703 /* PBXTargetDependency */,
+				6D8B4ACF7B9E4966BBB1EFBB /* PBXTargetDependency */,
+				746258E248EF4E8EA691C794 /* PBXTargetDependency */,
+				DC2781E6819E407F817FE745 /* PBXTargetDependency */,
+				C26CF844FC174C61AC8EA2E9 /* PBXTargetDependency */,
+				20CD0A120CC040E489B28549 /* PBXTargetDependency */,
+				E5D3170E1D2F4294A56C5D77 /* PBXTargetDependency */,
+				2B2CCBD6CECC49D496C1205D /* PBXTargetDependency */,
+				DF51DD8929C74545B81ECDD7 /* PBXTargetDependency */,
+				A58E8D6BF8F44111863105C1 /* PBXTargetDependency */,
+				730B517A62034B9F941CBB57 /* PBXTargetDependency */,
+				0FD7E64DC5A149988688DEED /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E0519972709F48EB81B14512 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BFE5B629725444CEA7DFDFD1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9EAA461042624299872E36E8 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		072EE15BFDA54811B161B11A /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EF6E8A2BA8224C4BB1795366 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */; };
+		31221166074547BCAC33E662 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z6.cpp */ = {isa = PBXBuildFile; fileRef = 80D67F5C59F44DB3AB8EDA30 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z6.cpp */; };
+		33F1E13CF97E42D7B8B5A913 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 90B0EE76C5934A089010BDB3 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */; };
+		41A9AF59259A40EE9F62C64A /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z5b.cpp */ = {isa = PBXBuildFile; fileRef = 4C066710576A475E8CD00D14 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z5b.cpp */; };
+		59B9E5A6817A4E778752ECE3 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 84133459BA4841E5BCBDCCF5 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */; };
+		59F20B2AFD9648F69B3AC8EF /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5B377D09604145ED938C9812 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */; };
+		5D942BDAE6234419A147C740 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z8s.cpp */ = {isa = PBXBuildFile; fileRef = F92B696378C844E0B0ED6562 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z8s.cpp */; };
+		607F0649EFC346A99BE4629A /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 029985B869614093AE58D18C /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */; };
+		652E83B075F649DB8E950342 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z9a.cpp */ = {isa = PBXBuildFile; fileRef = C6B8E45B83FC4F63A03CCEC9 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z9a.cpp */; };
+		6FC2BF2718C14CBFBAEF50CD /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 857F0D9D40734BA594FE6990 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */; };
+		78108A9724D74C4EB0EA3E22 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 145492B22A2E40AA88FFD548 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */; };
+		7849D4F40F694F929969FDC6 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z3.cpp */ = {isa = PBXBuildFile; fileRef = 81EA2CBF14E2493098E57B82 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z3.cpp */; };
+		8B93B440839843A08DD4BD9C /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z7a.cpp */ = {isa = PBXBuildFile; fileRef = 8FCB7F9E87A14C51B0A2AF25 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z7a.cpp */; };
+		A4AE86C5D46543DDA9E2D011 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3FA1D75D51644DBAB1AA8712 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */; };
+		A68729B85A71493790BE8300 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z4.cpp */ = {isa = PBXBuildFile; fileRef = C18E39F9AFAA4456A131CD67 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z4.cpp */; };
+		A9F7D142B8E7490FA24CEF37 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z9b.cpp */ = {isa = PBXBuildFile; fileRef = BCE2D21EE187462A94E85476 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z9b.cpp */; };
+		B0B703BD6C604189AC9A4D45 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z2.cpp */ = {isa = PBXBuildFile; fileRef = A25686D506CD4C98B8D7602B /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z2.cpp */; };
+		C01F41D53D464C0C82305C00 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C0008B0585F54A6399E950B6 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */; };
+		C73F6567AD9A480095373B6B /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z8c.cpp */ = {isa = PBXBuildFile; fileRef = 4E6B45F0FBAB4EB5A27909B8 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z8c.cpp */; };
+		CAFC78FC698B43098F59C8B3 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D5D67C15DF6145A1AA19FC2F /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */; };
+		D72F054B58144EE0A3FA7C11 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z7b.cpp */ = {isa = PBXBuildFile; fileRef = 020305E35DEC41709CC23DAD /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z7b.cpp */; };
+		D7C3F088CBCA4C1CBCA3D3DA /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2C012153C59F4021B520125B /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */; };
+		E39055F2C8E940D5A83B44F9 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z12.cpp */ = {isa = PBXBuildFile; fileRef = DAA6FA8D8C03472C8B1E1342 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z12.cpp */; };
+		EA5892304D56480D8D2CC589 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z1.cpp */ = {isa = PBXBuildFile; fileRef = 0E2113BDE5D140A2A450EB0F /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z1.cpp */; };
+		F2068E596DC145B9AC3EF6B8 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6D1F9C595AC64BBE902506F4 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */; };
+		F537BAF0F0A6490C9F50A1E0 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 95CE49E813FB4ECF89D33331 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */; };
+		F73F1C22276B4656A2B834E8 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 354B85D1C44F4732852E7874 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */; };
+		FD16F31A9B7B4A8D9D4C442A /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z5a.cpp */ = {isa = PBXBuildFile; fileRef = 30B24FEA05D440AC9F8482EB /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z5a.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4E59BF9C4C384685A3115C83 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		9C9C6DBE590046B68A34C2F1 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		B4F42DB79E12493682647F04 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D49D9CF136434A98AE168086 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0B240ACA360B48D08E870E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		0BBC8319C37F44E39D9C522C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66A5C810D7044386B831F9D4;
+			remoteInfo = l3_z9a;
+		};
+		1C21DD1E62DB41EB929E955A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECEF93C9D12C4FB89AFD4287;
+			remoteInfo = l3_z6;
+		};
+		23469CCE40A94DA480FAB1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDBB87C5D9A4A408A4E6E3E;
+			remoteInfo = l3_z3;
+		};
+		3C9D9B0686784C68BBB4D711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B49E062FC34D309167E9AD;
+			remoteInfo = l3_z2;
+		};
+		5934629D41C8418ABD3797AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		5BB77DB0B21643A7B3DB85EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		72C9051C40664640A803777A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		7611F0E733AA4CE3B03AEF26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43EA33B429524401ACE0D8F7;
+			remoteInfo = l3_z7a;
+		};
+		7C491ECF55F745BC92F383EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		83371DD1F14349B6A0427E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21EE70B65EFD45DA81207DF5;
+			remoteInfo = l3_z5a;
+		};
+		853EB5CDF7D745BB8C3498F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC945BD9BF34554B6CC71B3;
+			remoteInfo = l3_z4;
+		};
+		85DD8F6509E5419DB29E5096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		8EFB0253D84349CDAD4EFFF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		91F86668C41C4D75AA000F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83ED2F9508E41F3BD8451E6;
+			remoteInfo = l3_z5b;
+		};
+		9E13648373A04651BB05D680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		A5221FD3DF8E4F629DCA8E08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FF815C344F41AEACDC22B8;
+			remoteInfo = l3_z1;
+		};
+		AD12DFA6993D4CC8AACAB7B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FB65C3FDAF44BFB9AB71C38;
+			remoteInfo = l3_z8s;
+		};
+		B4FF8C413A6E469B85C87153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		C29D9C7F310E4564B838F69A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		D51BE543CD384317B65BF1BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		E6883C8E04914EB3A2FC05B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		E7BC2FB3BE994A228A758E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA9F504500546A9B01BFF18;
+			remoteInfo = l3_z12;
+		};
+		EC8BC92E4A804DA7B1427860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		EFA542266EEA4CFC9EE0EDFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF0A0A026661477BBA199DC3;
+			remoteInfo = l3_z8c;
+		};
+		F365C374779D434B9053428C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		F76EAA5E87BB41C58DC5F5B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040CD9B169E64051B7C80F21;
+			remoteInfo = l3_z7b;
+		};
+		F91E0D0418BC4379B8FCBE79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0519972709F48EB81B14512;
+			remoteInfo = ZERO_CHECK;
+		};
+		FCD048C0654D4FAE8770D2AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A685F296A6240ABBC7BC189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 305B568393CB4934845F962A;
+			remoteInfo = l3_z9b;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020305E35DEC41709CC23DAD /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z7b.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = l3_z7b.cpp; path = l3_z7b.cpp; sourceTree = SOURCE_ROOT; };
+		029985B869614093AE58D18C /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0E2113BDE5D140A2A450EB0F /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = l3_z1.cpp; path = l3_z1.cpp; sourceTree = SOURCE_ROOT; };
+		1036388B55814D89984616CA /* l3_z4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = l3_z4; sourceTree = BUILT_PRODUCTS_DIR; };
+		145492B22A2E40AA88FFD548 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		170762F41EA143A1BEB1D6B0 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1F1DCDCE4E6248C09321E1D0 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2C012153C59F4021B520125B /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2FD69EC7E4E74C3BB02C0559 /* l3_z6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = l3_z6; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B24FEA05D440AC9F8482EB /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z5a.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = l3_z5a.cpp; path = l3_z5a.cpp; sourceTree = SOURCE_ROOT; };
+		354B85D1C44F4732852E7874 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3A3907E4C9B34E1F96E70C58 /* l3_z5a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = l3_z5a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D024156CBF242D3B22D3800 /* l3_z8s */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = l3_z8s; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA1D75D51644DBAB1AA8712 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4C066710576A475E8CD00D14 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z5b.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = l3_z5b.cpp; path = l3_z5b.cpp; sourceTree = SOURCE_ROOT; };
+		4CFF435BBC9F46AEB228A710 /* l3_z1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = l3_z1; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6B45F0FBAB4EB5A27909B8 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z8c.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = l3_z8c.cpp; path = l3_z8c.cpp; sourceTree = SOURCE_ROOT; };
+		5B377D09604145ED938C9812 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6D1F9C595AC64BBE902506F4 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		72C068508C264DAA9FA5411D /* l3_z2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = l3_z2; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D42003CCB7E4A1889ADA3F5 /* l3_z7b */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = l3_z7b; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D67F5C59F44DB3AB8EDA30 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z6.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = l3_z6.cpp; path = l3_z6.cpp; sourceTree = SOURCE_ROOT; };
+		81EA2CBF14E2493098E57B82 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = l3_z3.cpp; path = l3_z3.cpp; sourceTree = SOURCE_ROOT; };
+		84133459BA4841E5BCBDCCF5 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		857F0D9D40734BA594FE6990 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8FCB7F9E87A14C51B0A2AF25 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z7a.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = l3_z7a.cpp; path = l3_z7a.cpp; sourceTree = SOURCE_ROOT; };
+		90B0EE76C5934A089010BDB3 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		95CE49E813FB4ECF89D33331 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9FBD29D8691B4A0D8C3D8FD7 /* l3_z5b */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = l3_z5b; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25686D506CD4C98B8D7602B /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = l3_z2.cpp; path = l3_z2.cpp; sourceTree = SOURCE_ROOT; };
+		AC6AA40037C440FF9249FE7E /* l3_z3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = l3_z3; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17339817D5946B5AC1B2A91 /* l3_z12 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = l3_z12; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE2D21EE187462A94E85476 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z9b.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = l3_z9b.cpp; path = l3_z9b.cpp; sourceTree = SOURCE_ROOT; };
+		C0008B0585F54A6399E950B6 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C18E39F9AFAA4456A131CD67 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = l3_z4.cpp; path = l3_z4.cpp; sourceTree = SOURCE_ROOT; };
+		C6B8E45B83FC4F63A03CCEC9 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z9a.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = l3_z9a.cpp; path = l3_z9a.cpp; sourceTree = SOURCE_ROOT; };
+		D3D66FC9692A448888409C61 /* l3_z8c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = l3_z8c; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D67C15DF6145A1AA19FC2F /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D9486859205247DBA62C6F9E /* l3_z7a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = l3_z7a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA6FA8D8C03472C8B1E1342 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z12.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = l3_z12.cpp; path = l3_z12.cpp; sourceTree = SOURCE_ROOT; };
+		EF6E8A2BA8224C4BB1795366 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F4299A83992543AEAA10F16E /* l3_z9a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = l3_z9a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92B696378C844E0B0ED6562 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z8s.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = l3_z8s.cpp; path = l3_z8s.cpp; sourceTree = SOURCE_ROOT; };
+		F9E0C0B638724FE1AC02BF26 /* l3_z9b */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = l3_z9b; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03ADF2AF248843ED950FAA1F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FCB7F9E87A14C51B0A2AF25 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z7a.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		04D09DB0C8E541BBA3F95B74 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6B8E45B83FC4F63A03CCEC9 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z9a.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		065AE8BE9F0E423E8FB4E689 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAA6FA8D8C03472C8B1E1342 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z12.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1D8CC30A732244AF9C37D9DD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCE2D21EE187462A94E85476 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z9b.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1F874F28C54043EFAA916951 /* l3_z12 */ = {
+			isa = PBXGroup;
+			children = (
+				065AE8BE9F0E423E8FB4E689 /* Source Files */,
+				857F0D9D40734BA594FE6990 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = l3_z12;
+			sourceTree = "<group>";
+		};
+		2CF0E410C40E4677BB340499 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C18E39F9AFAA4456A131CD67 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z4.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3930E43B6A4F4FC1B10CA93D = {
+			isa = PBXGroup;
+			children = (
+				91D04C7AEA83432BBA43E55B /* l3_z8s */,
+				F46F1DEE98064D61A0B56A47 /* l3_z8c */,
+				5C181F8A20714D9FB272496B /* l3_z5b */,
+				D2689F359860497AA3987B58 /* l3_z6 */,
+				CEDDBA28E99C4595ADFA8153 /* l3_z4 */,
+				1F874F28C54043EFAA916951 /* l3_z12 */,
+				AC811803C1BF4CDD95305A6E /* l3_z3 */,
+				4FB2352A6CD6442597704A5C /* l3_z2 */,
+				9D82D4F511664473B9C9D60E /* l3_z7b */,
+				98693F8E2F5C4495B2162C0E /* l3_z7a */,
+				E817C9FD659C4C0CB58A8CA3 /* l3_z9a */,
+				C5B2D0EEE3E44AC3A4250F33 /* l3_z5a */,
+				649771AE97DA4B058CB45B84 /* l3_z9b */,
+				AEC0FDCE1A0241D0B83BF3B0 /* l3_z1 */,
+				F90FFBC9380749C1A9897EBD /* ALL_BUILD */,
+				C1615770EA43480AB58E3B53 /* ZERO_CHECK */,
+				F0ABF787F48A40D48D4BC6F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A86935D4B764591944DD59D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				81EA2CBF14E2493098E57B82 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z3.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4FB2352A6CD6442597704A5C /* l3_z2 */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EEBDFAA7A4526BC9523E2 /* Source Files */,
+				84133459BA4841E5BCBDCCF5 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = l3_z2;
+			sourceTree = "<group>";
+		};
+		55F79B1582ED4F23A429E511 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E6B45F0FBAB4EB5A27909B8 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z8c.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5C181F8A20714D9FB272496B /* l3_z5b */ = {
+			isa = PBXGroup;
+			children = (
+				CED2B404674D47EEB7A2C586 /* Source Files */,
+				C0008B0585F54A6399E950B6 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = l3_z5b;
+			sourceTree = "<group>";
+		};
+		606F7AF5613B469DA4FE88CE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				020305E35DEC41709CC23DAD /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z7b.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		649771AE97DA4B058CB45B84 /* l3_z9b */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CC30A732244AF9C37D9DD /* Source Files */,
+				354B85D1C44F4732852E7874 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = l3_z9b;
+			sourceTree = "<group>";
+		};
+		6546F54FED024422BE8F3C37 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8E4EEBDFAA7A4526BC9523E2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A25686D506CD4C98B8D7602B /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		91D04C7AEA83432BBA43E55B /* l3_z8s */ = {
+			isa = PBXGroup;
+			children = (
+				D1D0E7E6F745465C8B10757C /* Source Files */,
+				95CE49E813FB4ECF89D33331 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = l3_z8s;
+			sourceTree = "<group>";
+		};
+		98693F8E2F5C4495B2162C0E /* l3_z7a */ = {
+			isa = PBXGroup;
+			children = (
+				03ADF2AF248843ED950FAA1F /* Source Files */,
+				5B377D09604145ED938C9812 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = l3_z7a;
+			sourceTree = "<group>";
+		};
+		9D82D4F511664473B9C9D60E /* l3_z7b */ = {
+			isa = PBXGroup;
+			children = (
+				606F7AF5613B469DA4FE88CE /* Source Files */,
+				029985B869614093AE58D18C /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = l3_z7b;
+			sourceTree = "<group>";
+		};
+		AC811803C1BF4CDD95305A6E /* l3_z3 */ = {
+			isa = PBXGroup;
+			children = (
+				3A86935D4B764591944DD59D /* Source Files */,
+				EF6E8A2BA8224C4BB1795366 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = l3_z3;
+			sourceTree = "<group>";
+		};
+		AD42CE220307418A99612F54 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				30B24FEA05D440AC9F8482EB /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z5a.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AEC0FDCE1A0241D0B83BF3B0 /* l3_z1 */ = {
+			isa = PBXGroup;
+			children = (
+				BC567275A70E4F31A1D70D4B /* Source Files */,
+				6D1F9C595AC64BBE902506F4 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = l3_z1;
+			sourceTree = "<group>";
+		};
+		BC567275A70E4F31A1D70D4B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E2113BDE5D140A2A450EB0F /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z1.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C1615770EA43480AB58E3B53 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				6546F54FED024422BE8F3C37 /* CMake Rules */,
+				170762F41EA143A1BEB1D6B0 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		C5B2D0EEE3E44AC3A4250F33 /* l3_z5a */ = {
+			isa = PBXGroup;
+			children = (
+				AD42CE220307418A99612F54 /* Source Files */,
+				145492B22A2E40AA88FFD548 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = l3_z5a;
+			sourceTree = "<group>";
+		};
+		CED2B404674D47EEB7A2C586 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C066710576A475E8CD00D14 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z5b.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CEDDBA28E99C4595ADFA8153 /* l3_z4 */ = {
+			isa = PBXGroup;
+			children = (
+				2CF0E410C40E4677BB340499 /* Source Files */,
+				D5D67C15DF6145A1AA19FC2F /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = l3_z4;
+			sourceTree = "<group>";
+		};
+		D1D0E7E6F745465C8B10757C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F92B696378C844E0B0ED6562 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z8s.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D2689F359860497AA3987B58 /* l3_z6 */ = {
+			isa = PBXGroup;
+			children = (
+				D39885AD986C40DFA41EFD5E /* Source Files */,
+				2C012153C59F4021B520125B /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = l3_z6;
+			sourceTree = "<group>";
+		};
+		D39885AD986C40DFA41EFD5E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D67F5C59F44DB3AB8EDA30 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z6.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E817C9FD659C4C0CB58A8CA3 /* l3_z9a */ = {
+			isa = PBXGroup;
+			children = (
+				04D09DB0C8E541BBA3F95B74 /* Source Files */,
+				3FA1D75D51644DBAB1AA8712 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = l3_z9a;
+			sourceTree = "<group>";
+		};
+		F0ABF787F48A40D48D4BC6F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CFF435BBC9F46AEB228A710 /* l3_z1 */,
+				B17339817D5946B5AC1B2A91 /* l3_z12 */,
+				72C068508C264DAA9FA5411D /* l3_z2 */,
+				AC6AA40037C440FF9249FE7E /* l3_z3 */,
+				1036388B55814D89984616CA /* l3_z4 */,
+				3A3907E4C9B34E1F96E70C58 /* l3_z5a */,
+				9FBD29D8691B4A0D8C3D8FD7 /* l3_z5b */,
+				2FD69EC7E4E74C3BB02C0559 /* l3_z6 */,
+				D9486859205247DBA62C6F9E /* l3_z7a */,
+				7D42003CCB7E4A1889ADA3F5 /* l3_z7b */,
+				D3D66FC9692A448888409C61 /* l3_z8c */,
+				3D024156CBF242D3B22D3800 /* l3_z8s */,
+				F4299A83992543AEAA10F16E /* l3_z9a */,
+				F9E0C0B638724FE1AC02BF26 /* l3_z9b */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46F1DEE98064D61A0B56A47 /* l3_z8c */ = {
+			isa = PBXGroup;
+			children = (
+				55F79B1582ED4F23A429E511 /* Source Files */,
+				90B0EE76C5934A089010BDB3 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = l3_z8c;
+			sourceTree = "<group>";
+		};
+		F8AE0D3D5DC147929C529C88 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F90FFBC9380749C1A9897EBD /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F8AE0D3D5DC147929C529C88 /* CMake Rules */,
+				1F1DCDCE4E6248C09321E1D0 /* /Users/poe/Code/computer-networks-2/lab4/l3/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040CD9B169E64051B7C80F21 /* l3_z7b */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A6661519F44238A6A9FAC6 /* Build configuration list for PBXNativeTarget "l3_z7b" */;
+			buildPhases = (
+				C4908800038E4C71BACB8DE5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A44CD092DD68402497F8A503 /* PBXTargetDependency */,
+			);
+			name = l3_z7b;
+			productName = l3_z7b;
+			productReference = 7D42003CCB7E4A1889ADA3F5 /* l3_z7b */;
+			productType = "com.apple.product-type.tool";
+		};
+		18FF815C344F41AEACDC22B8 /* l3_z1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1428B518E5E24F8680FA7E69 /* Build configuration list for PBXNativeTarget "l3_z1" */;
+			buildPhases = (
+				086A4264CA1845DB83C42F6D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EA19577D9C74050AED9350F /* PBXTargetDependency */,
+			);
+			name = l3_z1;
+			productName = l3_z1;
+			productReference = 4CFF435BBC9F46AEB228A710 /* l3_z1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		21EE70B65EFD45DA81207DF5 /* l3_z5a */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7415FEB34279462BB981E071 /* Build configuration list for PBXNativeTarget "l3_z5a" */;
+			buildPhases = (
+				4DF759BF5266425B85441142 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				365C6577DD3D45A4A73677A6 /* PBXTargetDependency */,
+			);
+			name = l3_z5a;
+			productName = l3_z5a;
+			productReference = 3A3907E4C9B34E1F96E70C58 /* l3_z5a */;
+			productType = "com.apple.product-type.tool";
+		};
+		305B568393CB4934845F962A /* l3_z9b */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F13E2B3BD84C35B70FF629 /* Build configuration list for PBXNativeTarget "l3_z9b" */;
+			buildPhases = (
+				6D16EBDDAD31447B9A8EA5F6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B918DE6AD2CD46A2B4F4B916 /* PBXTargetDependency */,
+			);
+			name = l3_z9b;
+			productName = l3_z9b;
+			productReference = F9E0C0B638724FE1AC02BF26 /* l3_z9b */;
+			productType = "com.apple.product-type.tool";
+		};
+		43EA33B429524401ACE0D8F7 /* l3_z7a */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D9EB580413546F7B6E2723C /* Build configuration list for PBXNativeTarget "l3_z7a" */;
+			buildPhases = (
+				D7713AFF4F9143FBB4422E4B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30309954FAFC4057841984BC /* PBXTargetDependency */,
+			);
+			name = l3_z7a;
+			productName = l3_z7a;
+			productReference = D9486859205247DBA62C6F9E /* l3_z7a */;
+			productType = "com.apple.product-type.tool";
+		};
+		4CDBB87C5D9A4A408A4E6E3E /* l3_z3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55400EEEF014C9EA3175704 /* Build configuration list for PBXNativeTarget "l3_z3" */;
+			buildPhases = (
+				93D5C668E9864E8B86F38036 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8A965E034874ADBB3451609 /* PBXTargetDependency */,
+			);
+			name = l3_z3;
+			productName = l3_z3;
+			productReference = AC6AA40037C440FF9249FE7E /* l3_z3 */;
+			productType = "com.apple.product-type.tool";
+		};
+		60B49E062FC34D309167E9AD /* l3_z2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CE2F0CFFE0548E5B396AD16 /* Build configuration list for PBXNativeTarget "l3_z2" */;
+			buildPhases = (
+				F5A68709257B477DB91427A0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF89D557B96545AFA1787B33 /* PBXTargetDependency */,
+			);
+			name = l3_z2;
+			productName = l3_z2;
+			productReference = 72C068508C264DAA9FA5411D /* l3_z2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		66A5C810D7044386B831F9D4 /* l3_z9a */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51F8F702BE6146A9925359F0 /* Build configuration list for PBXNativeTarget "l3_z9a" */;
+			buildPhases = (
+				352A1BF0FE6A43EDBC42DE6D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07EE87D7EF9F413F87F1DE73 /* PBXTargetDependency */,
+			);
+			name = l3_z9a;
+			productName = l3_z9a;
+			productReference = F4299A83992543AEAA10F16E /* l3_z9a */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FB65C3FDAF44BFB9AB71C38 /* l3_z8s */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B2E03FD2D8430C8ED0AAB9 /* Build configuration list for PBXNativeTarget "l3_z8s" */;
+			buildPhases = (
+				375498D82B304BE3B4FFA1FB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ADF5FA45BC54801B6466D10 /* PBXTargetDependency */,
+			);
+			name = l3_z8s;
+			productName = l3_z8s;
+			productReference = 3D024156CBF242D3B22D3800 /* l3_z8s */;
+			productType = "com.apple.product-type.tool";
+		};
+		A83ED2F9508E41F3BD8451E6 /* l3_z5b */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8255E4F368D944F180BE4521 /* Build configuration list for PBXNativeTarget "l3_z5b" */;
+			buildPhases = (
+				91EAC82E589142BF85BCE902 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C63B6DC280454B3DB5167D02 /* PBXTargetDependency */,
+			);
+			name = l3_z5b;
+			productName = l3_z5b;
+			productReference = 9FBD29D8691B4A0D8C3D8FD7 /* l3_z5b */;
+			productType = "com.apple.product-type.tool";
+		};
+		AAC945BD9BF34554B6CC71B3 /* l3_z4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF1371A04014157A6A6B08B /* Build configuration list for PBXNativeTarget "l3_z4" */;
+			buildPhases = (
+				88146905718C4F808A2B25D8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E32584AF551143C8A243A2F7 /* PBXTargetDependency */,
+			);
+			name = l3_z4;
+			productName = l3_z4;
+			productReference = 1036388B55814D89984616CA /* l3_z4 */;
+			productType = "com.apple.product-type.tool";
+		};
+		CF0A0A026661477BBA199DC3 /* l3_z8c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B19D93743D348BC8DFF5BA1 /* Build configuration list for PBXNativeTarget "l3_z8c" */;
+			buildPhases = (
+				97C92F441BBD4D4D8002A060 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE34D239991346DF8C374D63 /* PBXTargetDependency */,
+			);
+			name = l3_z8c;
+			productName = l3_z8c;
+			productReference = D3D66FC9692A448888409C61 /* l3_z8c */;
+			productType = "com.apple.product-type.tool";
+		};
+		DAA9F504500546A9B01BFF18 /* l3_z12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132B6C105E074C3E978FE8BA /* Build configuration list for PBXNativeTarget "l3_z12" */;
+			buildPhases = (
+				70E89304ED854BAD9F4BD5DA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15D8B35D5A764B27B29C7C60 /* PBXTargetDependency */,
+			);
+			name = l3_z12;
+			productName = l3_z12;
+			productReference = B17339817D5946B5AC1B2A91 /* l3_z12 */;
+			productType = "com.apple.product-type.tool";
+		};
+		ECEF93C9D12C4FB89AFD4287 /* l3_z6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3889DC9BC249F2829A9D64 /* Build configuration list for PBXNativeTarget "l3_z6" */;
+			buildPhases = (
+				825647B5D80440AD86F1B8E9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4791676EAC4EE5AF5290B0 /* PBXTargetDependency */,
+			);
+			name = l3_z6;
+			productName = l3_z6;
+			productReference = 2FD69EC7E4E74C3BB02C0559 /* l3_z6 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A685F296A6240ABBC7BC189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = A244DF80B6CD4F96902A0EAF /* Build configuration list for PBXProject "l3" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B4F42DB79E12493682647F04 /* Debug */,
+				9C9C6DBE590046B68A34C2F1 /* Release */,
+				D49D9CF136434A98AE168086 /* MinSizeRel */,
+				4E59BF9C4C384685A3115C83 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3930E43B6A4F4FC1B10CA93D;
+			projectDirPath = "/Users/poe/Code/computer-networks-2/lab4/l3";
+			projectRoot = "";
+			targets = (
+				4938428BCA8D439AB4D23971 /* ALL_BUILD */,
+				E0519972709F48EB81B14512 /* ZERO_CHECK */,
+				18FF815C344F41AEACDC22B8 /* l3_z1 */,
+				DAA9F504500546A9B01BFF18 /* l3_z12 */,
+				60B49E062FC34D309167E9AD /* l3_z2 */,
+				4CDBB87C5D9A4A408A4E6E3E /* l3_z3 */,
+				AAC945BD9BF34554B6CC71B3 /* l3_z4 */,
+				21EE70B65EFD45DA81207DF5 /* l3_z5a */,
+				A83ED2F9508E41F3BD8451E6 /* l3_z5b */,
+				ECEF93C9D12C4FB89AFD4287 /* l3_z6 */,
+				43EA33B429524401ACE0D8F7 /* l3_z7a */,
+				040CD9B169E64051B7C80F21 /* l3_z7b */,
+				CF0A0A026661477BBA199DC3 /* l3_z8c */,
+				8FB65C3FDAF44BFB9AB71C38 /* l3_z8s */,
+				66A5C810D7044386B831F9D4 /* l3_z9a */,
+				305B568393CB4934845F962A /* l3_z9b */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		167324D735304FE28E6C29A4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/poe/Code/computer-networks-2/lab4/builds -f /Users/poe/Code/computer-networks-2/lab4/builds/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		27DD485439904F4D974E946E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		94C5FD90C6D34319A92D7991 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9EAA461042624299872E36E8 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/poe/Code/computer-networks-2/lab4/builds -f /Users/poe/Code/computer-networks-2/lab4/builds/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		086A4264CA1845DB83C42F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5892304D56480D8D2CC589 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z1.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352A1BF0FE6A43EDBC42DE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652E83B075F649DB8E950342 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z9a.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375498D82B304BE3B4FFA1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D942BDAE6234419A147C740 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z8s.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF759BF5266425B85441142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD16F31A9B7B4A8D9D4C442A /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z5a.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D16EBDDAD31447B9A8EA5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F7D142B8E7490FA24CEF37 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z9b.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E89304ED854BAD9F4BD5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39055F2C8E940D5A83B44F9 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z12.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825647B5D80440AD86F1B8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31221166074547BCAC33E662 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z6.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88146905718C4F808A2B25D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68729B85A71493790BE8300 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z4.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EAC82E589142BF85BCE902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A9AF59259A40EE9F62C64A /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z5b.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D5C668E9864E8B86F38036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7849D4F40F694F929969FDC6 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z3.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C92F441BBD4D4D8002A060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73F6567AD9A480095373B6B /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z8c.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4908800038E4C71BACB8DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72F054B58144EE0A3FA7C11 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z7b.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7713AFF4F9143FBB4422E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B93B440839843A08DD4BD9C /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z7a.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A68709257B477DB91427A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B703BD6C604189AC9A4D45 /* /Users/poe/Code/computer-networks-2/lab4/l3/l3_z2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07EE87D7EF9F413F87F1DE73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = E6883C8E04914EB3A2FC05B2 /* PBXContainerItemProxy */;
+		};
+		0FD7E64DC5A149988688DEED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FF815C344F41AEACDC22B8 /* l3_z1 */;
+			targetProxy = A5221FD3DF8E4F629DCA8E08 /* PBXContainerItemProxy */;
+		};
+		15D8B35D5A764B27B29C7C60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = 8EFB0253D84349CDAD4EFFF0 /* PBXContainerItemProxy */;
+		};
+		20CD0A120CC040E489B28549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECEF93C9D12C4FB89AFD4287 /* l3_z6 */;
+			targetProxy = 1C21DD1E62DB41EB929E955A /* PBXContainerItemProxy */;
+		};
+		2B2CCBD6CECC49D496C1205D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA9F504500546A9B01BFF18 /* l3_z12 */;
+			targetProxy = E7BC2FB3BE994A228A758E11 /* PBXContainerItemProxy */;
+		};
+		30309954FAFC4057841984BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = 9E13648373A04651BB05D680 /* PBXContainerItemProxy */;
+		};
+		33E74B7A5870459AB99C2703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDBB87C5D9A4A408A4E6E3E /* l3_z3 */;
+			targetProxy = 23469CCE40A94DA480FAB1BA /* PBXContainerItemProxy */;
+		};
+		365C6577DD3D45A4A73677A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = F365C374779D434B9053428C /* PBXContainerItemProxy */;
+		};
+		55D26856476D4344BA1F84AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FB65C3FDAF44BFB9AB71C38 /* l3_z8s */;
+			targetProxy = AD12DFA6993D4CC8AACAB7B7 /* PBXContainerItemProxy */;
+		};
+		6ADF5FA45BC54801B6466D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = B4FF8C413A6E469B85C87153 /* PBXContainerItemProxy */;
+		};
+		6D8B4ACF7B9E4966BBB1EFBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B49E062FC34D309167E9AD /* l3_z2 */;
+			targetProxy = 3C9D9B0686784C68BBB4D711 /* PBXContainerItemProxy */;
+		};
+		730B517A62034B9F941CBB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 305B568393CB4934845F962A /* l3_z9b */;
+			targetProxy = FCD048C0654D4FAE8770D2AD /* PBXContainerItemProxy */;
+		};
+		746258E248EF4E8EA691C794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040CD9B169E64051B7C80F21 /* l3_z7b */;
+			targetProxy = F76EAA5E87BB41C58DC5F5B8 /* PBXContainerItemProxy */;
+		};
+		9EA19577D9C74050AED9350F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = 0B240ACA360B48D08E870E5A /* PBXContainerItemProxy */;
+		};
+		A44CD092DD68402497F8A503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = 5934629D41C8418ABD3797AE /* PBXContainerItemProxy */;
+		};
+		A58E8D6BF8F44111863105C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21EE70B65EFD45DA81207DF5 /* l3_z5a */;
+			targetProxy = 83371DD1F14349B6A0427E1C /* PBXContainerItemProxy */;
+		};
+		B8A965E034874ADBB3451609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = 5BB77DB0B21643A7B3DB85EC /* PBXContainerItemProxy */;
+		};
+		B918DE6AD2CD46A2B4F4B916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = C29D9C7F310E4564B838F69A /* PBXContainerItemProxy */;
+		};
+		C26CF844FC174C61AC8EA2E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83ED2F9508E41F3BD8451E6 /* l3_z5b */;
+			targetProxy = 91F86668C41C4D75AA000F8B /* PBXContainerItemProxy */;
+		};
+		C3D9AB32CEBF471FAD546300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF0A0A026661477BBA199DC3 /* l3_z8c */;
+			targetProxy = EFA542266EEA4CFC9EE0EDFA /* PBXContainerItemProxy */;
+		};
+		C63B6DC280454B3DB5167D02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = EC8BC92E4A804DA7B1427860 /* PBXContainerItemProxy */;
+		};
+		DC2781E6819E407F817FE745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43EA33B429524401ACE0D8F7 /* l3_z7a */;
+			targetProxy = 7611F0E733AA4CE3B03AEF26 /* PBXContainerItemProxy */;
+		};
+		DF51DD8929C74545B81ECDD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66A5C810D7044386B831F9D4 /* l3_z9a */;
+			targetProxy = 0BBC8319C37F44E39D9C522C /* PBXContainerItemProxy */;
+		};
+		E32584AF551143C8A243A2F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = 72C9051C40664640A803777A /* PBXContainerItemProxy */;
+		};
+		E5D3170E1D2F4294A56C5D77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAC945BD9BF34554B6CC71B3 /* l3_z4 */;
+			targetProxy = 853EB5CDF7D745BB8C3498F2 /* PBXContainerItemProxy */;
+		};
+		EF4791676EAC4EE5AF5290B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = D51BE543CD384317B65BF1BF /* PBXContainerItemProxy */;
+		};
+		EF89D557B96545AFA1787B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = 85DD8F6509E5419DB29E5096 /* PBXContainerItemProxy */;
+		};
+		FE34287E21C2425F86C916A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = 7C491ECF55F745BC92F383EE /* PBXContainerItemProxy */;
+		};
+		FE34D239991346DF8C374D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0519972709F48EB81B14512 /* ZERO_CHECK */;
+			targetProxy = F91E0D0418BC4379B8FCBE79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03347F931E4A42EA9A4F15B1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z6;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		043501898222449880731208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		058C95CAF22D4C1A834C8AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0593CC13F0764AEFA3F129A9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z6;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0751ED24E4384F5DB29F1B04 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z12;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0D6733BB7295433FA73CA4EB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z7b;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0E09399FA9A440828255B677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z12;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1193A916C1DC4F78971B6F4A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z5a;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		13599FC7D4C3448DBDF63BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1EF71F34F8254A25B69FBE79 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z8c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1FA369E5FF404BA3802254A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2374B774B5734F1A818A4571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2517FDD923DF475FB7436297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		27103438251A4DC1958901E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2C0D1902ABC84B698B566EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		303D625C437D47A580433423 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z9b;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		324CC09D592D4307AB0F1D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z8c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		330628FAA1154426B58034D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z7a;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		34420F38496B411D891C283C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds/build";
+			};
+			name = Release;
+		};
+		3464478B8EA041F29072ADE0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z5b;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		36459C805DA04F0D84E33B0C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		38323EE77B0146B394B054C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z6;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3AA12BABDF4C479189F5AD23 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3EBD13C708A6470F8BD3C362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z8s;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		45086B50C7F54B058652110C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z7a;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		470269D6301E4F95B20EF633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z7b;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4B922FABA2F34A6EBF916706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z7a;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4ED95627547349709D12F136 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5A1B1686DA6D43F3A7C95EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z8c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5CBBC7E66D254FFAA9ADC17A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		635779CE4E7E475790F55FA9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z5a;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		64E2B71FA91E40D0B440F409 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z9a;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		68DEAC822ED34421A474106B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z5b;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6A0D75B7E4DD4A7DB7953324 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		715F890DE594470E980E4289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z8s;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		724B100319E14D68B3A3C783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z5b;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7D49B774F79D49789ACEF54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z7b;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8200507DA0DF43D0928FFB76 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds/build";
+			};
+			name = MinSizeRel;
+		};
+		8E2013E940AC4F4D838904AF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z7a;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8F2738AD00F744579B908769 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z12;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8F6E744B11604EFEA0AC57F2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8FE53133F52C4A2796F85035 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds/build";
+			};
+			name = RelWithDebInfo;
+		};
+		98340AFA263048D096C8B254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9E6668BE90FB4B3394E789BE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A725C1D3BB3A49B69ABCDECC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A9A43A3A343542AF96E4DA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z12;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A9F1BB8652D547D2A2996681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z5b;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AA40CCEDEBA14659B4737D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z5a;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AA6902F9DCF347A9966472D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z9a;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AF660EC38A25487FBF178786 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B267261A13A046B78C78B4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z9b;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B3BD29E3D0934D458BCBF069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B7E14F1C82704AD9B7F18BE4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z8s;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B9751600CE88420F9B4D46BF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BF0666374BD04DC9B08EE376 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z7b;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C27A163865554297A12E02FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z9b;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C8AE67B72DE141B5ADDC6BD1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z9a;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C9ACB66FDE6449E0BFEC9C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds/build";
+			};
+			name = Debug;
+		};
+		CB09F8B749384F5B9B07C915 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z8s;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D57C4B47C731424B8ECC8EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z5a;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DBFE22030D1B4E54888E9C65 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z8c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DFF28EB617F14FD7B625FAB2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z9b;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E50F6B832BD2452EABBC0801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z9a;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E5D9CD6FD390488E8B8F818E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E6C6A07E040B456985F653C3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E8391A4A2107414F88EBFF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E9C43D4C393549D1899B65DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F9C863F9FF6243CD8DA5086C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = l3_z6;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/poe/Code/computer-networks-2/lab4/builds";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		132B6C105E074C3E978FE8BA /* Build configuration list for PBXNativeTarget "l3_z12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A43A3A343542AF96E4DA91 /* Debug */,
+				0E09399FA9A440828255B677 /* Release */,
+				8F2738AD00F744579B908769 /* MinSizeRel */,
+				0751ED24E4384F5DB29F1B04 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1428B518E5E24F8680FA7E69 /* Build configuration list for PBXNativeTarget "l3_z1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BD29E3D0934D458BCBF069 /* Debug */,
+				98340AFA263048D096C8B254 /* Release */,
+				8F6E744B11604EFEA0AC57F2 /* MinSizeRel */,
+				B9751600CE88420F9B4D46BF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		18A6661519F44238A6A9FAC6 /* Build configuration list for PBXNativeTarget "l3_z7b" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D49B774F79D49789ACEF54E /* Debug */,
+				470269D6301E4F95B20EF633 /* Release */,
+				BF0666374BD04DC9B08EE376 /* MinSizeRel */,
+				0D6733BB7295433FA73CA4EB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2B19D93743D348BC8DFF5BA1 /* Build configuration list for PBXNativeTarget "l3_z8c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1B1686DA6D43F3A7C95EC0 /* Debug */,
+				324CC09D592D4307AB0F1D7F /* Release */,
+				DBFE22030D1B4E54888E9C65 /* MinSizeRel */,
+				1EF71F34F8254A25B69FBE79 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		32D1BED1387448B1AABF800B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C43D4C393549D1899B65DC /* Debug */,
+				2C0D1902ABC84B698B566EA9 /* Release */,
+				E6C6A07E040B456985F653C3 /* MinSizeRel */,
+				AF660EC38A25487FBF178786 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3CF1371A04014157A6A6B08B /* Build configuration list for PBXNativeTarget "l3_z4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA369E5FF404BA3802254A8 /* Debug */,
+				27103438251A4DC1958901E6 /* Release */,
+				5CBBC7E66D254FFAA9ADC17A /* MinSizeRel */,
+				3AA12BABDF4C479189F5AD23 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4D9EB580413546F7B6E2723C /* Build configuration list for PBXNativeTarget "l3_z7a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B922FABA2F34A6EBF916706 /* Debug */,
+				330628FAA1154426B58034D9 /* Release */,
+				8E2013E940AC4F4D838904AF /* MinSizeRel */,
+				45086B50C7F54B058652110C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		51F8F702BE6146A9925359F0 /* Build configuration list for PBXNativeTarget "l3_z9a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50F6B832BD2452EABBC0801 /* Debug */,
+				AA6902F9DCF347A9966472D4 /* Release */,
+				C8AE67B72DE141B5ADDC6BD1 /* MinSizeRel */,
+				64E2B71FA91E40D0B440F409 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7415FEB34279462BB981E071 /* Build configuration list for PBXNativeTarget "l3_z5a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA40CCEDEBA14659B4737D0F /* Debug */,
+				D57C4B47C731424B8ECC8EA6 /* Release */,
+				635779CE4E7E475790F55FA9 /* MinSizeRel */,
+				1193A916C1DC4F78971B6F4A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7CE2F0CFFE0548E5B396AD16 /* Build configuration list for PBXNativeTarget "l3_z2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8391A4A2107414F88EBFF4C /* Debug */,
+				2374B774B5734F1A818A4571 /* Release */,
+				9E6668BE90FB4B3394E789BE /* MinSizeRel */,
+				36459C805DA04F0D84E33B0C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8255E4F368D944F180BE4521 /* Build configuration list for PBXNativeTarget "l3_z5b" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F1BB8652D547D2A2996681 /* Debug */,
+				724B100319E14D68B3A3C783 /* Release */,
+				3464478B8EA041F29072ADE0 /* MinSizeRel */,
+				68DEAC822ED34421A474106B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		83F13E2B3BD84C35B70FF629 /* Build configuration list for PBXNativeTarget "l3_z9b" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B267261A13A046B78C78B4D5 /* Debug */,
+				C27A163865554297A12E02FF /* Release */,
+				303D625C437D47A580433423 /* MinSizeRel */,
+				DFF28EB617F14FD7B625FAB2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A244DF80B6CD4F96902A0EAF /* Build configuration list for PBXProject "l3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9ACB66FDE6449E0BFEC9C1B /* Debug */,
+				34420F38496B411D891C283C /* Release */,
+				8200507DA0DF43D0928FFB76 /* MinSizeRel */,
+				8FE53133F52C4A2796F85035 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B55400EEEF014C9EA3175704 /* Build configuration list for PBXNativeTarget "l3_z3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13599FC7D4C3448DBDF63BB5 /* Debug */,
+				058C95CAF22D4C1A834C8AB5 /* Release */,
+				E5D9CD6FD390488E8B8F818E /* MinSizeRel */,
+				6A0D75B7E4DD4A7DB7953324 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BFE5B629725444CEA7DFDFD1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2517FDD923DF475FB7436297 /* Debug */,
+				043501898222449880731208 /* Release */,
+				A725C1D3BB3A49B69ABCDECC /* MinSizeRel */,
+				4ED95627547349709D12F136 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EA3889DC9BC249F2829A9D64 /* Build configuration list for PBXNativeTarget "l3_z6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C863F9FF6243CD8DA5086C /* Debug */,
+				38323EE77B0146B394B054C0 /* Release */,
+				03347F931E4A42EA9A4F15B1 /* MinSizeRel */,
+				0593CC13F0764AEFA3F129A9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F6B2E03FD2D8430C8ED0AAB9 /* Build configuration list for PBXNativeTarget "l3_z8s" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EBD13C708A6470F8BD3C362 /* Debug */,
+				715F890DE594470E980E4289 /* Release */,
+				CB09F8B749384F5B9B07C915 /* MinSizeRel */,
+				B7E14F1C82704AD9B7F18BE4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A685F296A6240ABBC7BC189 /* Project object */;
+}

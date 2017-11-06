@@ -1,0 +1,16 @@
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/l3_z8s.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/l3_z8c.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/l3_z5b.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/l3_z6.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/l3_z4.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/l3_z12.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/l3_z3.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/l3_z2.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/l3_z7b.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/l3_z7a.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/l3_z9a.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/l3_z5a.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/l3_z9b.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/l3_z1.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/ALL_BUILD.dir
+/Users/poe/Code/computer-networks-2/lab4/builds/CMakeFiles/ZERO_CHECK.dir

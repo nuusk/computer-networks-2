@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.1)
+project(l3)
+set (CMAKE_CXX_STANDARD 11)
+file ( GLOB SRCS *.cpp )
+foreach ( SRC ${SRCS} )
+    string (REGEX REPLACE ".*/([^/]*).cpp" "\\1" EXEC ${SRC} )
+    add_executable ( ${EXEC} ${SRC} )
+endforeach ( SRC ${SRCS} )
