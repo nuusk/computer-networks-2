@@ -45,6 +45,5 @@ int main(int argc, char **argv) {
 
 	int result = connect(client_socket, aio->ai_addr, sizeof(sockaddr));
 
-	close(client_socket);
 	freeaddrinfo(aio);
 }

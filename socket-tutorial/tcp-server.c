@@ -38,13 +38,13 @@ int main() {
 
     //accept the connection
     int client_socket;
+    client_socket = accept(server_socket, NULL, NULL);
+    if (client_socket == -1) {
+        perror("Accept connection failed");
+        exit(1);
+    }
     while(1) {
-      client_socket = accept(server_socket, NULL, NULL);
-      if (client_socket == -1) {
-          perror("Accept connection failed");
-          exit(1);
-      }
-
+      
     if (write(client_socket, buff, MAX) == -1) {
         perror("Error writing to the client socket");
         exit(1);

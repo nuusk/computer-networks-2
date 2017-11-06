@@ -3,4 +3,5 @@
 W sieci dominuje konwencja big endian, w odroznieniu od tego jak to jest robione w systemach operacyjnych, ktore pracuja w wiekszosci w little endian.
 Podczas wysylania liczby 0x010F, czyli 271, nalezy zamienic kolejnosc wysylanych bajtow, tak zeby siec zrozumiala dany numer.
 
+
 Do przekazywania adresu gniazda funkcje uzywaja struktury sockaddr (w C - strct sockaddr). Struktura ta nie pozwala na bezposrednie wykorzystanie. Zamiast tegp d;a O{v4 nalezy uzywac sockaddr_in (w C - struct sockaddr_in).
